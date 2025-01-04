@@ -4,8 +4,8 @@ import MapView, { Marker, PROVIDER_GOOGLE } from "react-native-maps";
 import {
   DriverProfile,
 } from "../../../src/StateStore";
-import StartIconSvg from "../../../assets/icon/Passenger/StartIconSvg.svg";
-import FinishIconSvg from "../../../assets/icon/Passenger/FinishIconSvg.svg";
+import StartIconSvg from "./StartIconSvg.svg";
+import FinishIconSvg from "./FinishIconSvg.svg";
 
 const GoogleMap = () => {
   const latitudeDelta = 0.013;
